@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        button{
+            background-color: rgb(5, 56, 56);
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all .2s ease-in-out;
+            border: none;
+            cursor: pointer;
+        }
+        button:nth-child(2){
+            background-color: rgb(56, 5, 26);
+        }
+        button:hover{
+            background-color: rgb(175, 14, 81);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2">no</th>
+            <th colspan="4">Jenis Barang</th>
+        </tr>
+        <tr>
+            <th>Nama barang</th>
+            <th>Jenis barang</th>
+            <th>Harga barang</th>
+            <th>Stok barang</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sabun Cuci Piring</td>
+            <td>Sabun</td>
+            <td>Rp 5.000</td>
+            <td>400</td>
+            <td>
+                <button>Hapus</button>
+                <button>Edit</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sabun Life Boy</td>
+            <td>Sabun</td>
+            <td>Rp 2.000</td>
+            <td>1000</td>
+            <td>
+                <button>Hapus</button>
+                <button>Edit</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sampo Pantene</td>
+            <td>Sampo</td>
+            <td>Rp 10.000</td>
+            <td>500</td>
+            <td>
+                <button>Hapus</button>
+                <button>Edit</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Pepsodene</td>
+            <td>Odol</td>
+            <td>Rp 7.000</td>
+            <td>900</td>
+            <td>
+                <button>Hapus</button>
+                <button>Edit</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">Total Harga</td>
+            <td>Rp 24.000</td>
+        </tr>
+        <tr>
+            <td colspan="4">Total Stok</td>
+            <td>2800</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>child selector</title>
+    <style>
+      /*
+      nama:Muhammad Fadli Kurniawan
+      
+        Selector anak (child selector) dalam CSS digunakan untuk menargetkan elemen yang merupakan anak langsung dari elemen lain dalam struktur dokumen HTML. Selector ini berfokus pada elemen yang hanya satu level di bawah elemen induknya.
+        contoh saya mempunyai clas bernama 'induk' dan berisi span, dan saya mempunyai clas bernama 'induk2' di dalam class 'induk', style yang akan di beri adalah anak dari class 'induk' saja dan anak dari class 'induk2' tidak akan berpengaruh 
+        */
+      .induk > span {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="induk">
+      <span>Ini anak</span>
+      <div class="induk2">
+        <span>ini anak 2</span>
+      </div>
+    </div>
+  </body>
+</html>
